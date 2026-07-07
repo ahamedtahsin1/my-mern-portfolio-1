@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Open Sans", sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* Common styles */
+.common-button{
+  background: #fd6e0a;
+  margin:10px;
+  padding:10px;
+  border-radius:12px;
+  font-weight:bold;
+  font-size:18px;
+  border:none;
+  cursor: pointer;
+}
+
+.outline-button{
+  padding:10px;
+  background: white;
+  border: 1px solid #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd6e0a;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.hero-section-parent{
+background: #FFF8F3;
+}
+
+.container{
+ max-width: 1200px;
+  margin: auto;
+}
+
+header{
+background: rgb(94, 58, 58);
+}
+
+.logo{
+  font-weight:bold;
+  font-size:36px;
+}
+
+.logo-r{
+  color:#fd6e0a
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+}
+
+ul{
+  display:flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+
+ul li a{
+  text-decoration: none;
+  color:grey;
+  font-size:16px;
+  font-weight: 500;
+}
+
+/* Hero section start */
+.hero-parent{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.hero-left h2{
+font-weight: 900;
+font-size: 28px;
+}
+
+.hero-left p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* About Section Start */
+
+.about-section{
+  background: #FFF8F3;
+  margin: 70px auto;
+  text-align: center;
+  padding: auto;
+}
+
+.about-section h2{
+justify-content: center;
+}
+
+.about-section p{
+ justify-content: space-around;
+}
+.about-data-four{
+  display:flex;
+  justify-content: space-between;
+}
+
+/* What I Do */
+
