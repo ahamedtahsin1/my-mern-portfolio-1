@@ -114,3 +114,23 @@ justify-content: center;
 
 /* What I Do */
 
+.what-i-do-sec-container{
+  text-align: center;
+}
+
+.what-i-do-sec-container h2{
+  padding: 10px;
+}
+.what-i-do-cards-parent{
+  display: flex;
+  gap: 8px;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.what-i-do-cards{
+  border:2px solid #fd6e0a;
+  text-align:left;
+  margin:8px 6px;
+  padding:12px;
+}
